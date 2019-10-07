@@ -1,0 +1,6 @@
+{
+  "Seqware_Delly_Workflow.reference_gc": "/home/natalieperez/testData/delly-reference_gc",
+  "Seqware_Delly_Workflow.reference_gz": "/home/natalieperez/testData/delly-reference_gz",
+  "Seqware_Delly_Workflow.tumorBam": "/home/natalieperez/testData/tumorBam",
+  "Seqware_Delly_Workflow.normalBam": "/home/natalieperez/testData/normalBam"
+}
