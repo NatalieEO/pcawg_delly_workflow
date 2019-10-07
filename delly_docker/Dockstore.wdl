@@ -3,7 +3,7 @@ task Seqware_Delly {
     File tumorBam
     File normalBam
     File reference_gz
-    File output_dir = '/tmp/'
+    File output_dir = '.'
     command {
         bash /start.sh
         perl /usr/bin/run_seqware_workflow.pl \
@@ -44,7 +44,7 @@ workflow Seqware_Delly_Workflow {
     File tumorBam
     File normalBam
     File reference_gz
-    File output_dir = '/tmp/'
+    File output_dir = '.'
     call Seqware_Delly {
         input:
             reference_gc = reference_gc,
